@@ -1,12 +1,7 @@
 import random
-from termcolor import colored
-import os
-import time
-os.system("clear")
-
-x1 = "__   ___           _   "
-x2 = "\ \ / / |         | |  "
-x3 = " \ V /| |__   ___ | |_ "
+from termcolor import colored                                          import os
+import time                                                            os.system("clear")                                                     
+x1 = "__   ___           _   "                                         x2 = "\ \ / / |         | |  "                                         x3 = " \ V /| |__   ___ | |_ "
 x4 = "  > < | '_ \ / _ \| __|"
 x5 = " / . \| |_) | (_) | |_ "
 x6 = "/_/ \_\_.__/ \___/ \__|"
@@ -20,9 +15,9 @@ print(colored(x5, "green"))
 print(colored(x6, "green"))
 print(colored(x7, "green"))
 
-print("⠀ ⠀ ⠀ ⠀ ⠀  ")
-
-bad_words = ["pederas", "grozen ", "gay", "gey", "maika ti", "mangal", "debel", "eba"]                                                        bot_name = "xbot"
+print("⠀ ⠀ ⠀ ⠀ ⠀  ")                                                   
+bad_words = ["pederas", "grozen ", "gay", "gey", "maika ti", "mangal", "debel", "eba"]
+bot_name = "xbot"
 name = input("Whats your name: ")
 if name == "Netovski":
   time.sleep(1.5)
